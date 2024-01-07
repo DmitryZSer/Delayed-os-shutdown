@@ -1,6 +1,6 @@
 # Delayed windows shutdown
 
-Set time (im minutes) and click on "Set time" button
+Sets the time-out period before shutdown (im minutes) and click on "Set time" button
 
 If you need to aborts a system shutdown click on "Clear time" button
 
