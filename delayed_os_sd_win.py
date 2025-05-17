@@ -4,10 +4,10 @@ import os
 
 app = Tk()
 app.title("Delayed os shutdown")
-app.geometry("370x60")  # Оставляем прежний размер окна
+app.geometry("370x60")
 app.resizable(width=False, height=False)
 app.configure(background='#1f75fe')
-app.iconbitmap('red_win.ico')  # Устанавливаем иконку окна
+# app.iconbitmap('red_win.ico')  # Устанавливаем иконку окна
 
 # Переменная для хранения времени
 time_var = IntVar(value=0)
@@ -34,11 +34,11 @@ def clearTime():
 # Поле ввода времени
 timeEntry = Entry(app, textvariable=time_var, validate="key", font='Times 22', width=3)
 timeEntry['validatecommand'] = (timeEntry.register(lambda inStr: inStr.isdigit()), '%S')
-timeEntry.place(x=17, y=13)
+timeEntry.place(x=17, y=12)
 
 # Кнопка "Увеличить время"
 increaseButton = Button(app, text='+', height=1, width=2, command=lambda: update_time(10), background='#7FBA00', border='2px')
-increaseButton.place(x=75, y=18)
+increaseButton.place(x=74, y=18)
 
 # Кнопка "Уменьшить время"
 decreaseButton = Button(app, text='-', height=1, width=2, command=lambda: update_time(-10), background='#F25022', border='2px')
