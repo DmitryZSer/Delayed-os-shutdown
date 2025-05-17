@@ -14,6 +14,6 @@ pip install pyinstaller
 pyinstaller --onefile --noconsole --icon=red_win.ico -n="Delayed os shutdown"  delayed_os_sd_win.py
 ```
 ```Linux
-pyinstaller --onefile --noconsole --icon=little_linux.png --add-data "little_linux.png:." n="Delayed os shutdown" delayed_os_sd_linux.py
-chmod +x dist/delayed_os_sd_linux
+pyinstaller --onefile --noconsole --icon=little_linux.png --add-data "little_linux.png:." -n="Delayed os shutdown" delayed_os_sd_linux.py
+chmod +x dist/"Delayed os shutdown"
 ```

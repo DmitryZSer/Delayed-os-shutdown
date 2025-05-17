@@ -1,4 +1,6 @@
 /.venv
 /build
-delayed_os_sd_win.spec
-delayed_os_sd_linux.spec
+/.vscode
+/delayed_os_sd_win.spec
+/delayed_os_sd_linux.spec
+/Delayed os shutdown.spec
