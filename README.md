@@ -1,4 +1,4 @@
-# Delayed windows shutdown
+# Delayed shutdown
 
 Sets the time-out period before shutdown (in minutes) and click on "Set time" button
 
